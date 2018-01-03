@@ -22,7 +22,8 @@ ribbon:
 
 spring:
   rabbitmq:
-    host: rabbitmq
+    #host: rabbitmq
+    host:localhost
   sleuth:
     sampler:
       percentage: 1
