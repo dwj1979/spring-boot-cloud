@@ -41,7 +41,7 @@ spring:
     properties:
       hibernate:
         show-sql: true
-    generate-ddl: true
+    generate-ddl: false
     #指定目标数据库
     #database: org.hibernate.dialect.MySQL5Dialect
     #指定目标数据库的类型.
