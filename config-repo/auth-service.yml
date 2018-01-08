@@ -31,6 +31,7 @@ spring:
   
   #一直没生效
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: none
         #create：每次加载hibernate会自动创建表，以后启动会覆盖之前的表，所以这个值基本不用，严重会导致的数据的丢失。
@@ -40,7 +41,9 @@ spring:
         #none：启动时不做任何操作
     properties:
       hibernate:
-        show-sql: true
+        hbm2ddl:
+          auto: none
+        
     generate-ddl: false
     #指定目标数据库
     #database: org.hibernate.dialect.MySQL5Dialect
