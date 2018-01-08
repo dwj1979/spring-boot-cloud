@@ -30,8 +30,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
   jpa:
     show-sql: true
-    #generate-ddl:
-    #  false
+    #generate-ddl: false
     hibernate:
       ddl-auto:
         update
