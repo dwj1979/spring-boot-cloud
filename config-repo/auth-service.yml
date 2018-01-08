@@ -24,7 +24,7 @@ spring:
       maximum-pool-size: 5
       pool-name: dbcp1
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/spring_auth2?autoReconnect=true&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/spring_oauth2?autoReconnect=true&useSSL=false
     username: root
     password: PXY160225
     type: com.zaxxer.hikari.HikariDataSource
